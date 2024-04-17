@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -15,6 +16,7 @@
     "@tsparticles/react": "^3.0.0",
     "axios": "^1.6.8",
     "framer-motion": "^11.0.3",
+    "jest": "^29.7.0",
     "lucide-react": "^0.323.0",
     "mongoose": "^8.3.2",
     "next": "14.1.0",
@@ -23,15 +25,18 @@
     "react-dom": "^18",
     "react-type-animation": "^3.2.0",
     "swiper": "^11.0.6",
-    "tsparticles": "^3.2.1"
+    "tsparticles": "^3.2.1",
+    "webpack": "^5.91.0"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^10.0.1",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "autoprefixer": "^10.0.1",
+    "cypress": "^13.7.3",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "postcss": "^8",

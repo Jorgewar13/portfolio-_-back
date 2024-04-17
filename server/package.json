@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon src/index.js"
+    
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -14,4 +15,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.0"
   }
+  
 }
+
