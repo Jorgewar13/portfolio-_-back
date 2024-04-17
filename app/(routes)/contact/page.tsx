@@ -84,19 +84,19 @@ const AboutMePage = () => {
                 <form onSubmit={handleSubmit} className="mt-6">
                     <div className="flex flex-col">
                         <label htmlFor="name" className="text-lg mb-2">Nombre:</label>
-                        <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4" required />
+                        <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4 text-black" required style={{ maxWidth: '444px' }} />
                     </div>
                     <div className="flex flex-col">
                         <label htmlFor="email" className="text-lg mb-2">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4" required />
+                        <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4 text-black" required style={{ maxWidth: '444px' }} />
                     </div>
                     <div className="flex flex-col">
                         <label htmlFor="phone" className="text-lg mb-2">Teléfono:</label> {/* Agrega el campo phone */}
-                        <input type="text" id="phone" name="phone" value={formData.phone} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4" required />
+                        <input type="text" id="phone" name="phone" value={formData.phone} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4 text-black" required style={{ maxWidth: '444px' }} />
                     </div>
                     <div className="flex flex-col">
                         <label htmlFor="message" className="text-lg mb-2">Mensaje:</label>
-                        <textarea id="message" name="message" value={formData.message} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4" required />
+                        <textarea id="message" name="message" value={formData.message} onChange={handleInputChange} className="border border-gray-300 p-2 rounded-lg mb-4 text-black" required style={{ maxWidth: '444px' }} />
                     </div>
                     <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Enviar</button>
                 </form>
